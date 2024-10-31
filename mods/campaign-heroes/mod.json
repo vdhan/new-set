@@ -1,0 +1,17 @@
+{
+  "name": "Campaign Heroes",
+  "description": "Unlock some campaign heroes on random maps",
+  "version": "1.0.0",
+  "author": "Vũ Đắc Hoàng Ân",
+  "contact": "https://vudachoangan.com",
+  "modType": "Heroes",
+
+  "vietnamese": {
+    "name": "Tướng chiến dịch",
+    "description": "Mở khóa 1 vài tướng chiến dịch ở bản đồ thường"
+  },
+
+  "heroes": [
+    "config/campaign-heroes"
+  ]
+}

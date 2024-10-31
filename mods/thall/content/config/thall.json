@@ -10,7 +10,7 @@
       "biography": "Thall the Battle Mage",
       "specialty": {
         "name": "Navigation",
-        "description": "{Navigation}\n\nReceives a 5% per level bonus to movement points at sea",
+        "description": "Receives a 5% per level bonus to movement points at sea",
         "tooltip": "Skill Bonus: Navigation"
       }
     },

@@ -1,0 +1,132 @@
+{
+  "core:adrienne": {
+    "special": false,
+    "army": [
+      {
+        "creature" : "gnoll",
+        "min" : 15,
+        "max" : 25
+      },
+
+      {
+        "creature" : "lizardman",
+        "min" : 4,
+        "max" : 7
+      },
+
+      {
+        "creature" : "serpentFly",
+        "min" : 3,
+        "max" : 4
+      }
+    ]
+  },
+
+  "core:catherine": {
+    "special": false
+  },
+
+  "core:kilgor": {
+    "special": false
+  },
+
+  "core:undeadHaart": {
+    "special": false
+  },
+
+  "core:mutare": {
+    "special": false,
+    "army": [
+      {
+        "creature" : "troglodyte",
+        "min" : 20,
+        "max" : 30
+      },
+
+      {
+        "creature" : "harpy",
+        "min" : 6,
+        "max" : 8
+      },
+
+      {
+        "creature" : "evilEye",
+        "min" : 3,
+        "max" : 4
+      }
+    ]
+  },
+
+  "core:roland": {
+    "special": false
+  },
+
+  "core:mutareDrake": {
+    "special": false,
+    "army": [
+      {
+        "creature" : "troglodyte",
+        "min" : 20,
+        "max" : 30
+      },
+
+      {
+        "creature" : "harpy",
+        "min" : 6,
+        "max" : 8
+      },
+
+      {
+        "creature" : "evilEye",
+        "min" : 3,
+        "max" : 4
+      }
+    ]
+  },
+
+  "core:boragus": {
+    "special": false,
+    "army": [
+      {
+        "creature" : "goblin",
+        "min" : 15,
+        "max" : 25
+      },
+
+      {
+        "creature" : "goblinWolfRider",
+        "min" : 5,
+        "max" : 7
+      },
+
+      {
+        "creature" : "orc",
+        "min" : 4,
+        "max" : 6
+      }
+    ]
+  },
+
+  "core:xeron": {
+    "special": false,
+    "army": [
+      {
+        "creature" : "imp",
+        "min" : 20,
+        "max" : 30
+      },
+
+      {
+        "creature" : "hellHound",
+        "min" : 3,
+        "max" : 4
+      },
+
+      {
+        "creature" : "hellHound",
+        "min" : 3,
+        "max" : 4
+      }
+    ]
+  }
+}
