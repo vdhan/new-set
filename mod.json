@@ -1,0 +1,33 @@
+{
+  "name": "New Set mod",
+  "description": "Add new heroes, artifacts, etc.",
+  "version": "1.0.0",
+  "author": "Vũ Đắc Hoàng Ân",
+  "contact": "https://github.com/vdhan/new-set",
+  "modType": "Expansion",
+  "licenseName": "Creative Commons Attribution-NonCommercial-ShareAlike",
+  "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+
+  "settings": {
+    "heroes": {
+      "startingStackChances": [100, 100, 100]
+    },
+
+    "towns": {
+      "startingDwellingChances": [100, 100]
+    },
+
+    "combat": {
+      "badLuckDice": [12, 6, 4]
+    },
+
+		"spells": {
+			"dimensionDoorTriggersGuards": true
+		}
+  },
+
+  "vietnamese": {
+    "name": "Bộ sưu tập mới",
+    "description": "Thêm tướng, trang bị, ... mới"
+  }
+}

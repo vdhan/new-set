@@ -1,0 +1,18 @@
+{
+  "name": "Thall",
+  "description": "New Stronghold hero with Navigation specialty",
+  "version": "1.0.0",
+  "author": "Vũ Đắc Hoàng Ân",
+  "contact": "https://vudachoangan.com",
+  "modType": "Heroes",
+
+  "vietnamese": {
+    "name": "Thall",
+    "description": "Tướng thành Stronghold mới với chuyên môn Đi Biển",
+    "translations": ["translation/thall/vietnamese"]
+  },
+
+  "heroes": [
+    "config/thall"
+  ]
+}
