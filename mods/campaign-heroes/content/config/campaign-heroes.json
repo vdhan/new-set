@@ -31,26 +31,7 @@
   },
 
   "core:mutare": {
-    "special": false,
-    "army": [
-      {
-        "creature" : "troglodyte",
-        "min" : 20,
-        "max" : 30
-      },
-
-      {
-        "creature" : "harpy",
-        "min" : 6,
-        "max" : 8
-      },
-
-      {
-        "creature" : "evilEye",
-        "min" : 3,
-        "max" : 4
-      }
-    ]
+    "special": false
   },
 
   "core:roland": {
@@ -58,26 +39,7 @@
   },
 
   "core:mutareDrake": {
-    "special": false,
-    "army": [
-      {
-        "creature" : "troglodyte",
-        "min" : 20,
-        "max" : 30
-      },
-
-      {
-        "creature" : "harpy",
-        "min" : 6,
-        "max" : 8
-      },
-
-      {
-        "creature" : "evilEye",
-        "min" : 3,
-        "max" : 4
-      }
-    ]
+    "special": false
   },
 
   "core:boragus": {
