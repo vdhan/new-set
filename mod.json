@@ -1,7 +1,7 @@
 {
   "name": "New Set mod",
   "description": "Add new heroes, artifacts, etc.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Vũ Đắc Hoàng Ân",
   "contact": "https://github.com/vdhan/new-set",
   "modType": "Expansion",
@@ -24,6 +24,10 @@
 		"spells": {
 			"dimensionDoorTriggersGuards": true
 		}
+  },
+
+  "changelog": {
+    "1.0.1": ["Restructure mod"]
   },
 
   "vietnamese": {

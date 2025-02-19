@@ -2,10 +2,9 @@
 
 Add new heroes, artifacts, etc.
 
-## Feature:
-
-- Thall: New Stronghold hero with Navigation specialty
-- Campaign Heroes: Unlock some campaign heroes on random maps
+## Structure:
+- Campaign Heroes
+- Heroes
 
 ---
 
