@@ -1,13 +1,13 @@
 {
-  "nshThall": {
-    "class": "battlemage",
-    "female": false,
+  "nshSaturn": {
+    "class": "warlock",
+    "female": true,
     "onlyOnWaterMap": true,
     "spellbook": ["magicArrow"],
 
     "texts": {
-      "name": "Thall",
-      "biography": "Thall the Battle Mage",
+      "name": "Saturn",
+      "biography": "Saturn the Warlock",
       "specialty": {
         "name": "Navigation",
         "description": "Receives a 5% per level bonus to movement points at sea",
@@ -16,29 +16,29 @@
     },
 
     "images": {
-      "large": "thall/large",
-      "small": "thall/small",
-      "specialtyLarge": "thall/specLarge",
-      "specialtySmall": "thall/specSmall"
+      "large": "saturn/large",
+      "small": "saturn/small",
+      "specialtyLarge": "saturn/specLarge",
+      "specialtySmall": "saturn/specSmall"
     },
 
     "army": [
       {
-        "creature": "goblin",
-        "min": 15,
-        "max": 25
+        "creature": "troglodyte",
+        "min": 20,
+        "max": 30
       },
 
       {
-        "creature": "goblinWolfRider",
-        "min": 5,
-        "max": 7
+        "creature": "harpy",
+        "min": 6,
+        "max": 8
       },
 
       {
-        "creature": "orc",
-        "min": 4,
-        "max": 6
+        "creature": "beholder",
+        "min": 3,
+        "max": 4
       }
     ],
 
