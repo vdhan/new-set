@@ -3,6 +3,7 @@
     "class": "warlock",
     "female": true,
     "onlyOnWaterMap": true,
+    "onlyOnMapWithoutWater": false,
     "spellbook": ["magicArrow"],
 
     "texts": {

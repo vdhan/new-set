@@ -15,6 +15,7 @@
   "heroes": [
     "config/thall",
     "config/flazz",
-    "config/saturn"
+    "config/saturn",
+    "config/decken"
   ]
 }

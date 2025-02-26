@@ -1,14 +1,14 @@
 {
-  "nshFlazz": {
-    "class": "heretic",
+  "nshDecken": {
+    "class": "necromancer",
     "female": false,
     "onlyOnWaterMap": true,
     "onlyOnMapWithoutWater": false,
     "spellbook": ["magicArrow"],
 
     "texts": {
-      "name": "Flazz",
-      "biography": "Flazz the Heretic",
+      "name": "Decken",
+      "biography": "Decken the Necromancer",
       "specialty": {
         "name": "Navigation",
         "description": "Receives a 5% per level bonus to movement points at sea",
@@ -17,35 +17,35 @@
     },
 
     "images": {
-      "large": "flazz/large",
-      "small": "flazz/small",
-      "specialtyLarge": "flazz/specLarge",
-      "specialtySmall": "flazz/specSmall"
+      "large": "decken/large",
+      "small": "decken/small",
+      "specialtyLarge": "decken/specLarge",
+      "specialtySmall": "decken/specSmall"
     },
 
     "army": [
       {
-        "creature": "imp",
+        "creature": "skeleton",
         "min": 20,
         "max": 30
       },
 
       {
-        "creature": "gog",
+        "creature": "walkingDead",
         "min": 4,
-        "max": 7
+        "max": 6
       },
 
       {
-        "creature": "hellHound",
-        "min": 3,
-        "max": 4
+        "creature": "wight",
+        "min": 4,
+        "max": 6
       }
     ],
 
     "skills": [
       {
-        "skill": "wisdom",
+        "skill": "necromancy",
         "level": "basic"
       },
 

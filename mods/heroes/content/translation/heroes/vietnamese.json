@@ -9,5 +9,9 @@
 
   "hero.new-set.heroes.nshSaturn.specialty.name": "Đi Biển",
   "hero.new-set.heroes.nshSaturn.specialty.description": "Tăng 5% điểm di chuyển trên biển mỗi cấp",
-  "hero.new-set.heroes.nshSaturn.specialty.tooltip": "Kĩ năng: Đi Biển"
+  "hero.new-set.heroes.nshSaturn.specialty.tooltip": "Kĩ năng: Đi Biển",
+
+  "hero.new-set.heroes.nshDecken.specialty.name": "Đi Biển",
+  "hero.new-set.heroes.nshDecken.specialty.description": "Tăng 5% điểm di chuyển trên biển mỗi cấp",
+  "hero.new-set.heroes.nshDecken.specialty.tooltip": "Kĩ năng: Đi Biển"
 }
