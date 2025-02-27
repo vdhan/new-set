@@ -13,5 +13,11 @@
 
   "hero.new-set.heroes.nshDecken.specialty.name": "Đi Biển",
   "hero.new-set.heroes.nshDecken.specialty.description": "Tăng 5% điểm di chuyển trên biển mỗi cấp",
-  "hero.new-set.heroes.nshDecken.specialty.tooltip": "Kĩ năng: Đi Biển"
+  "hero.new-set.heroes.nshDecken.specialty.tooltip": "Kĩ năng: Đi Biển",
+
+  "hero.new-set.heroes.nshThuyTinh.specialty.name": "Đi Biển",
+  "hero.new-set.heroes.nshThuyTinh.specialty.description": "Tăng 5% điểm di chuyển trên biển mỗi cấp",
+  "hero.new-set.heroes.nshThuyTinh.specialty.tooltip": "Kĩ năng: Đi Biển",
+  "hero.new-set.heroes.nshThuyTinh.name": "Thủy Tinh",
+  "hero.new-set.heroes.nshThuyTinh.biography": "Thủy Tinh (Sơn Tinh - Thủy Tinh)"
 }

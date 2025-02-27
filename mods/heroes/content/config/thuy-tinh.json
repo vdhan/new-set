@@ -1,0 +1,71 @@
+{
+  "nshThuyTinh": {
+    "class": "druid",
+    "female": false,
+    "onlyOnWaterMap": true,
+    "onlyOnMapWithoutWater": false,
+    "spellbook": ["magicArrow"],
+
+    "texts": {
+      "name": "Thuy Tinh",
+      "biography": "Thuy Tinh the Druid",
+      "specialty": {
+        "name": "Navigation",
+        "description": "Receives a 5% per level bonus to movement points at sea",
+        "tooltip": "Skill Bonus: Navigation"
+      }
+    },
+
+    "images": {
+      "large": "thuy-tinh/large",
+      "small": "thuy-tinh/small",
+      "specialtyLarge": "thuy-tinh/specLarge",
+      "specialtySmall": "thuy-tinh/specSmall"
+    },
+
+    "army": [
+      {
+        "creature": "centaur",
+        "min": 12,
+        "max": 24
+      },
+
+      {
+        "creature": "dwarf",
+        "min": 3,
+        "max": 5
+      },
+
+      {
+        "creature": "woodElf",
+        "min": 2,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "skill": "wisdom",
+        "level": "basic"
+      },
+
+      {
+        "skill": "navigation",
+        "level": "basic"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "bonusSkill": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementSea",
+          "val": 5,
+          "valueType": "PERCENT_TO_TARGET_TYPE",
+          "updater": "TIMES_HERO_LEVEL",
+          "targetSourceType": "SECONDARY_SKILL"
+        }
+      }
+    }
+  }
+}
