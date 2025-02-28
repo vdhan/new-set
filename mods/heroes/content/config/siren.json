@@ -1,0 +1,71 @@
+{
+  "nshSiren": {
+    "class": "elementalist",
+    "female": true,
+    "onlyOnWaterMap": true,
+    "onlyOnMapWithoutWater": false,
+    "spellbook": ["summonBoat"],
+
+    "texts": {
+      "name": "Siren",
+      "biography": "Siren the Elementalist",
+      "specialty": {
+        "name": "Navigation",
+        "description": "Receives a 5% per level bonus to movement points at sea",
+        "tooltip": "Skill Bonus: Navigation"
+      }
+    },
+
+    "images": {
+      "large": "siren/large",
+      "small": "siren/small",
+      "specialtyLarge": "siren/specLarge",
+      "specialtySmall": "siren/specSmall"
+    },
+
+    "army": [
+      {
+        "creature": "pixie",
+        "min": 15,
+        "max": 25
+      },
+
+      {
+        "creature": "airElemental",
+        "min": 3,
+        "max": 5
+      },
+
+      {
+        "creature": "waterElemental",
+        "min": 2,
+        "max": 3
+      }
+    ],
+
+    "skills": [
+      {
+        "skill": "waterMagic",
+        "level": "basic"
+      },
+
+      {
+        "skill": "navigation",
+        "level": "basic"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "bonusSkill": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementSea",
+          "val": 5,
+          "valueType": "PERCENT_TO_TARGET_TYPE",
+          "updater": "TIMES_HERO_LEVEL",
+          "targetSourceType": "SECONDARY_SKILL"
+        }
+      }
+    }
+  }
+}
