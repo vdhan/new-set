@@ -4,7 +4,7 @@
     "female": false,
     "onlyOnWaterMap": true,
     "onlyOnMapWithoutWater": false,
-    "spellbook": ["magicArrow"],
+    "spellbook": ["summonBoat"],
 
     "texts": {
       "name": "Thall",
@@ -45,7 +45,7 @@
 
     "skills": [
       {
-        "skill": "wisdom",
+        "skill": "waterMagic",
         "level": "basic"
       },
 

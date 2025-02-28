@@ -1,14 +1,14 @@
 {
-  "nshFlazz": {
-    "class": "heretic",
+  "nshTriton": {
+    "class": "wizard",
     "female": false,
     "onlyOnWaterMap": true,
     "onlyOnMapWithoutWater": false,
     "spellbook": ["summonBoat"],
 
     "texts": {
-      "name": "Flazz",
-      "biography": "Flazz the Heretic",
+      "name": "Triton",
+      "biography": "Triton the Wizard",
       "specialty": {
         "name": "Navigation",
         "description": "Receives a 5% per level bonus to movement points at sea",
@@ -17,29 +17,29 @@
     },
 
     "images": {
-      "large": "flazz/large",
-      "small": "flazz/small",
-      "specialtyLarge": "flazz/specLarge",
-      "specialtySmall": "flazz/specSmall"
+      "large": "triton/large",
+      "small": "triton/small",
+      "specialtyLarge": "triton/specLarge",
+      "specialtySmall": "triton/specSmall"
     },
 
     "army": [
       {
-        "creature": "imp",
-        "min": 20,
-        "max": 30
+        "creature": "gremlin",
+        "min": 30,
+        "max": 40
       },
 
       {
-        "creature": "gog",
-        "min": 4,
+        "creature": "stoneGargoyle",
+        "min": 5,
         "max": 7
       },
 
       {
-        "creature": "hellHound",
-        "min": 3,
-        "max": 4
+        "creature": "ironGolem",
+        "min": 4,
+        "max": 5
       }
     ],
 

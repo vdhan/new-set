@@ -4,7 +4,7 @@
     "female": true,
     "onlyOnWaterMap": true,
     "onlyOnMapWithoutWater": false,
-    "spellbook": ["magicArrow"],
+    "spellbook": ["summonBoat"],
 
     "texts": {
       "name": "Saturn",
@@ -45,7 +45,7 @@
 
     "skills": [
       {
-        "skill": "wisdom",
+        "skill": "waterMagic",
         "level": "basic"
       },
 
